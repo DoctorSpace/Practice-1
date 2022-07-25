@@ -1,0 +1,13 @@
+.card-tag-info{
+
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    left: 5px;
+
+ 
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.3fr 1fr;
+    padding-left: 15px;
+}

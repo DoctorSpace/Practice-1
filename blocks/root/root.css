@@ -1,0 +1,16 @@
+.root {
+    min-width: 320px;
+    max-width: 1171px;
+
+    margin: 0 auto;
+    font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1360px) {
+    
+    .root{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}

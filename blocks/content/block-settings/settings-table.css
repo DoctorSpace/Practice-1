@@ -1,0 +1,48 @@
+table.settings-table{
+
+    margin-top: 16px;
+    /* border: 1px solid #D6D6D6; */
+
+    color: #3C3C3C; 
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+
+	width: 100%;
+    border-width: 8px 0 0 8px;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+    border-radius: 4px;
+}
+
+table.settings-table, table.settings-table td {
+	border: 1px solid #D6D6D6;
+}
+
+table.settings-table td {
+	width: 30px;
+	height: 35px;
+}
+
+
+.settings-table-1{
+    background-color: #FFCF26;
+}
+
+.settings-table-2{
+    background-color: #FFCF26;
+}
+
+.settings-table-3{
+    background-color: #FFCF26;
+}
+
+.settings-table-4{
+    background-color: #FFCF26;
+}
+
+.settings-table-5{
+    background-color: #FFCF26;
+}

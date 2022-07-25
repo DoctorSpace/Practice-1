@@ -1,2 +1,25 @@
 /* Fonts */
+@import url(../vendor/fonts/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
+/* Root */
+@import url(../blocks/header/header.css);
+@import url(../blocks/root/root.css);
+
+/* Conteainer */
+@import url(../blocks/content/container.css);
+@import url(../blocks/content/content-cards.css);
+
+/* card */
+@import url(../blocks/content/row-content.css);
+@import url(../blocks/content/card/card.css);
+@import url(../blocks/content/card/card-inner.css);
+@import url(../blocks/content/card/card-main-img.css);
+@import url(../blocks/content/card/card-tag-info.css);
+@import url(../blocks/content/card/card-color-tag.css);
+@import url(../blocks/content/card/more.css);
+
+/* settings */
+@import url(../blocks/content/block-settings/settings.css);
+@import url(../blocks/content/block-settings/settings-visibility.css);
+@import url(../blocks/content/block-settings/settings-table.css);

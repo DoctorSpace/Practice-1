@@ -1,0 +1,11 @@
+.settings-visibility{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 0.3fr;
+
+}
+
+.settings-visibility img{
+
+    margin-top: 6px;
+}

@@ -1,0 +1,29 @@
+.more button{
+    height: 80px;
+    width: 870px;
+    background-color: aliceblue;
+    border: 0px;
+}
+
+.more button div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more button div img{
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1145px) {
+    .more button{
+        width: 570px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .more button{
+        width: 270px;
+    }
+}
+
