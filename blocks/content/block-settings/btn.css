@@ -1,0 +1,28 @@
+.btn-enable{
+    width: 270px;
+    height: 50px;
+
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-apply{
+    color: black;
+    background-color: var(--color1);
+    margin-bottom: 10px;
+}
+
+.btn-apply:hover{
+    color: black;
+    background-color: var(--color2);
+}
+
+.btn-clear-filter{
+    color: var(--color4);
+    background-color: none;
+    border: 1px solid #D6D6D6;
+}
+
+.btn-clear-filter:hover{
+    background-color: #d6d6d6a8;
+}

@@ -1,0 +1,25 @@
+.checkbox_color{
+    position: absolute;
+    cursor: pointer;
+    appearance: none;
+}
+
+.check__box{
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-image: url(/Practice\ 1/images/Checkbox/checkbox_no_active.svg);
+}
+
+.check__box:hover{
+    background-color: var(--color2);
+}
+
+.checkbox_color:hover{
+    background-color: var(--color2);
+}
+
+.checkbox_color:checked{
+    background-image: url(/Practice\ 1/images/Checkbox/checkbox_activ.svg);
+}

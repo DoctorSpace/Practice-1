@@ -8,7 +8,6 @@
 
 /* Conteainer */
 @import url(../blocks/content/container.css);
-@import url(../blocks/content/content-cards.css);
 
 /* card */
 @import url(../blocks/content/row-content.css);
@@ -21,5 +20,11 @@
 
 /* settings */
 @import url(../blocks/content/block-settings/settings.css);
+@import url(../blocks/content/block-settings/block-settings-margin.css);
 @import url(../blocks/content/block-settings/settings-visibility.css);
 @import url(../blocks/content/block-settings/settings-table.css);
+@import url(../blocks/content/block-settings/radio_change.css);
+@import url(../blocks/content/block-settings/checkbox_color.css);
+@import url(../blocks/content/block-settings/radio_color.css);
+@import url(../blocks/content/block-settings/switch-btn.css);
+@import url(../blocks/content/block-settings/btn.css);

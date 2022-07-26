@@ -1,0 +1,32 @@
+.radio_change{
+    padding-left: 0px;
+    list-style: none;
+}
+
+.radio_change input, label{
+
+    position: absolute;
+    cursor: pointer;
+
+    margin: 0px;
+    padding-left: 10px;
+
+    height: 20px;
+    width: 20px;
+
+    color: #3C3C3C;
+    font-size: 16px;
+}
+
+.radio_change label{
+    left: 20px;
+    width: auto;
+}
+
+.radio_change li {
+    position: relative;
+
+    height: 20px;
+    width: auto;
+    padding-bottom: 15px;
+}

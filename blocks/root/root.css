@@ -6,11 +6,9 @@
     font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width: 1360px) {
-    
-    .root{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-
+:root{
+    --color1: #FFCF26;
+    --color2: #FFE074;
+    --color3: #11BE75;
+    --color4: #3C3C3C;
 }

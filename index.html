@@ -234,63 +234,113 @@
         </div>
         <!-- Блок меню -->
         <div>
+            <div class="settins">
+            <!-- Блок близости к метро -->
+            <div class="block-settings-margin">
+                <div class="settings-visibility">
+                    <h1>Близость к метро</h1>
+                    <img src="/Practice 1/images/chevron-up.svg">
+                    <!-- <div><img src="/Practice 1/images/chevron-down.svg"></div> -->
+                </div>
+                <div>
+                    <div class="setting-table-leble">
+                        <div><10</div>
+                        <div>10-20</div>
+                        <div>20-30</div>
+                        <div>30+</div> 
+                    </div>
+                    <div class="setting-table-any">
+                        <div class="settings-table-5">Любая</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Блок срок сдачи -->
+        
+            <div class="settins">
+                <div class="settings-visibility">
+                    <h1>Срок сдачи</h1>
+                    <img src="/Practice 1/images/chevron-up.svg">
+                    <!-- <div><img src="/Practice 1/images/chevron-down.svg"></div> -->
+                </div>
+                <ul class="radio_change">
+                    <li>
+                        <input name="rb" type="radio" id="radioButton_Any" class="radio_color" value="1" checked>
+                        <label for="radioButton_Any">Любой</label>
+                        <span class="radio__btn"></span>
+                    </li>
+                    <li>
+                        <input name="rb" type="radio" id="radioButtonWas_Passed" class="radio_color" value="2">
+                        <label for="radioButtonWas_Passed">Сдан</label>
+                        <span class="radio__btn"></span>
+                    </li>
+                    <li>
+                        <input name="rb" type="radio" id="radioButton_ThisYear" class="radio_color" value="3">
+                        <label for="radioButton_ThisYear">В этом году</label>
+                        <span class="radio__btn"></span>
+                    </li>
+                    <li>      
+                        <input name="rb" type="radio" id="radioButton_NextYear" class="radio_color" value="4">
+                        <label for="radioButton_NextYear">В следующем</label>
+                        <span class="radio__btn"></span>
+                    </li>
+                </label>
+            </div>
+        
+            <!-- Дополнительные опции -->
+
+            <div class="settins">
+                <div class="settings-visibility">
+                    <h1>Дополнительные опции</h1>
+                    <img src="/Practice 1/images/chevron-up.svg">
+                    <!-- <div><img src="/Practice 1/images/chevron-down.svg"></div> -->
+                </div>
+
+                <div>
+                    <ul class="radio_change">
+                        <li>
+                            <input type="checkbox" id="checkbox_1" class="checkbox_color" value="1">
+                            <label for="checkbox_1" >Двор без машины</label>
+                            <span class="check__box"></span>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox_2" class="checkbox_color" value="2">
+                            <label for="checkbox_2">Высокие потолки</label>
+                            <span class="check__box"></span>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox_3" class="checkbox_color" value="3">
+                            <label for="checkbox_3">Панорамные окна</label>
+                            <span class="check__box"></span>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox_4" class="checkbox_color" value="4">
+                            <label for="checkbox_4">Есть кладовые</label>
+                            <span class="check__box"></span>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="checkbox_5" class="checkbox_color" value="4">
+                            <label for="checkbox_5">Малоэтажка</label>
+                            <span class="check__box"></span>
+                        </li>
+                    </ul>
+                    <div style="color:rgba(0, 0, 255, 0.61)">показать ещё</div>
+                </div>
+            </div>
+
+            <!-- Переключатель -->
             <div>
-                <!-- Блок близости к метро -->
-                <div class="settins">
-                    <div class="settings-visibility">
-                        <h1>Близость к метро</h1>
-                        <img src="/Practice 1/images/chevron-up.svg">
-                        <!-- <div><img src="/Practice 1/images/chevron-down.svg"></div> -->
-                    </div>
-                    <div>
-                        <table class="settings-table">
-                            <tbody>
-                                <tr>
-                                    <td class="settings-table-1"><10</td>
-                                    <td class="settings-table-2">10-20</td>
-                                    <td class="settings-table-3">20-30</td>
-                                    <td class="settings-table-4">30+</td>
-                                </tr>
-                                <tr>
-                                    <td colspan="4" class="settings-table-5">Любая</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+                <div class="switch-btn" id="switch-btn"></div>
+                <label class="label-btn" for="switch-btn">Услуги 0%</label>
+            </div>
 
-                <!-- Блок срок сдачи -->
-                <div class="settins">
-                    <div class="settings-visibility">
-                        <h1>Срок сдачи</h1>
-                        <img src="/Practice 1/images/chevron-up.svg">
-                        <!-- <div><img src="/Practice 1/images/chevron-down.svg"></div> -->
-                    </div>
-                </div>
-
-                <!-- Дополнительные опции -->
-                <div class="settins">
-                    <div class="settings-visibility">
-                        <h1>Дополнительные опции</h1>
-                        <img src="/Practice 1/images/chevron-up.svg">
-                        <!-- <div><img src="/Practice 1/images/chevron-down.svg"></div> -->
-                    </div>
-                </div>
-
-                <!-- Переключатель -->
-                <div>
-
-                </div>
-
-                <!-- Кнопка Применить Фильтр -->
-                <div>
-                    <button>Применить Фильтр</button>
-                </div>
-            
-                <!-- Кнопка Сбрость фильтры-->
-                <div>
-                    <button>Сбрость фильтры</button>
-                </div>
+            <!-- Кнопка Применить Фильтр -->
+            <div>
+                <button class="btn-enable btn-apply">Применить Фильтр</button>
+            </div>
+        
+            <!-- Кнопка Сбрость фильтры-->
+            <div>
+                <button class="btn-enable btn-clear-filter">Сбрость фильтры</button>
             </div>
         </div>
     </nav>

@@ -1,16 +1,16 @@
 .container{
 
     display: grid;
-    grid-template-columns: 4fr minmax(270px,auto);
+    grid-template-columns: 4fr 270px;
 
     gap: 30px;
     border: 1px solid salmon;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1260px) {
 
     .container{
-        grid-template-columns: 3fr minmax(270px,auto);
+        grid-template-columns: 1fr 270px;
     }
 
 }
@@ -19,7 +19,7 @@
 @media screen and (max-width: 950px) {
     
     .container{
-        grid-template-columns: 1fr minmax(270px,auto);
+        grid-template-columns: 1fr 270px;
     }
 
 }

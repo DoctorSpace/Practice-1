@@ -1,0 +1,40 @@
+.radio_color{
+    position: absolute;
+    cursor: pointer;
+    appearance: none;
+}
+
+.radio__btn{
+    position: absolute;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 100%;
+}
+
+.radio__btn:hover{
+    background-color: var(--color2);
+    border-radius: 100%;
+}
+
+.radio_color:hover{
+    background-color: var(--color2);
+    border-radius: 100%;
+}
+
+.radio__btn:checked{
+    background-image: url(/Practice\ 1/images/Radiobtn/Radiobtn_activ.svg);
+}
+
+
+.radio_color:checked{
+    border: none;
+    background-image: url(/Practice\ 1/images/Radiobtn/Radiobtn_activ.svg);
+}
+
+.radio__btn:focus{
+    background-color: var(--color2);
+    border-radius: 100%;
+}
+
